@@ -16,21 +16,28 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.apache.dubbo.demo.provider.controller;
+package org.apache.dubbo.demo.provider;
 
 
-import org.apache.dubbo.demo.provider.iinterface.DemoService;
+import org.apache.dubbo.demo.DemoService;
 import org.springframework.stereotype.Service;
+
+import java.util.concurrent.CompletableFuture;
 
 
 @Service
 public class DemoServiceImpl implements DemoService {
     //private static final Logger logger = LoggerFactory.getLogger(DemoServiceImpl.class);
 
+    @Override
     public String sayHello(String name) {
         //logger.info("Hello " + name + ", request from consumer: " + RpcContext.getContext().getRemoteAddress());
         //return "Hello " + name + ", response from provider: " + RpcContext.getContext().getLocalAddress();
         return name;
+    }
+    @Override
+    public CompletableFuture<String> sayHelloAsync(String name) {
+        return null;
     }
 
 
