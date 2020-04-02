@@ -1,4 +1,4 @@
-package org.apache.dubbo.demo.provider;
+package org.apache.dubbo.demo.provider.controller;
 
 
 import org.apache.dubbo.demo.provider.iinterface.DemoController;

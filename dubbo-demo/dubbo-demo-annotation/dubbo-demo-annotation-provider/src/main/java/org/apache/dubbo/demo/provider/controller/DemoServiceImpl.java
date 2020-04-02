@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.apache.dubbo.demo.provider;
+package org.apache.dubbo.demo.provider.controller;
 
 
 import org.apache.dubbo.demo.provider.iinterface.DemoService;
