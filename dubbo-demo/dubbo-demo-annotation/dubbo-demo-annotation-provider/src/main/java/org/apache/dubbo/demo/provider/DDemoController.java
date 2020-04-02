@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Service
 public class DDemoController implements DemoController {
-//    @Autowired
-//    DemoService demo;
+    @Autowired
+    DemoService demo;
 
     @RequestMapping(value = "/say")
     public String sayHello(String name){
