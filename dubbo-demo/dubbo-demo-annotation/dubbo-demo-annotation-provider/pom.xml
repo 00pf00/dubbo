@@ -65,6 +65,11 @@
             <artifactId>spring-core</artifactId>
             <version>5.0.9.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>com.springsource.javax.validation</artifactId>
+            <version>1.0.0.GA</version>
+        </dependency>
 
         <!--dubbo-->
         <dependency>
