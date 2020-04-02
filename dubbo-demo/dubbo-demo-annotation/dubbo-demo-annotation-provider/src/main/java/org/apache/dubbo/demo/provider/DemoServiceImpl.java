@@ -18,12 +18,13 @@
  */
 package org.apache.dubbo.demo.provider;
 
-import org.apache.dubbo.config.annotation.Service;
+//import org.apache.dubbo.config.annotation.Service;
 import org.apache.dubbo.demo.DemoService;
 import org.apache.dubbo.rpc.RpcContext;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 import java.util.concurrent.CompletableFuture;
 
