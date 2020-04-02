@@ -60,6 +60,11 @@
             <artifactId>spring-beans</artifactId>
             <version>5.0.9.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.0.9.RELEASE</version>
+        </dependency>
 
         <!--dubbo-->
         <dependency>
