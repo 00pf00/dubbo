@@ -15,7 +15,7 @@ public class DDemoController implements DemoController {
 
     @RequestMapping(value = "/say")
     public String sayHello(String name){
-//        return demo.sayHello(name);
-        return "hello";
+        return demo.sayHello(name);
+//        return "hello";
     }
 }
