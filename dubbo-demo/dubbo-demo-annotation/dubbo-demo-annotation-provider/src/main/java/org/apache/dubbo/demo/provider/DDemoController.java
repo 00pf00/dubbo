@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Service
 public class DDemoController {
-    @Autowired
-    DemoService demo;
+//    @Autowired
+//    DemoService demo;
 
     @RequestMapping(value = "/say")
     public String sayHello(String name){
-        return demo.sayHello(name);
+//        return demo.sayHello(name);
+        return "hello";
     }
 }
