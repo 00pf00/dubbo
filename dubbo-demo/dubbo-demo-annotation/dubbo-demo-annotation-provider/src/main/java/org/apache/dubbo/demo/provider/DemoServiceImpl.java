@@ -26,6 +26,7 @@ import java.util.concurrent.CompletableFuture;
 
 
 @Service
+@org.apache.dubbo.config.annotation.Service
 public class DemoServiceImpl implements DemoService {
     //private static final Logger logger = LoggerFactory.getLogger(DemoServiceImpl.class);
 
