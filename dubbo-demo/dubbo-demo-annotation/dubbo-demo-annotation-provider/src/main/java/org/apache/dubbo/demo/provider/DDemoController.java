@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@Service
 public class DDemoController implements DemoController {
     @Autowired
     DemoService demo;
