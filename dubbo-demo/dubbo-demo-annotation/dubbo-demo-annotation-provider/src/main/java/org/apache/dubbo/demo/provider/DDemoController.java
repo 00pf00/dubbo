@@ -1,7 +1,8 @@
 package org.apache.dubbo.demo.provider;
 
-import org.apache.dubbo.demo.DemoController;
-import org.apache.dubbo.demo.DemoService;
+
+import org.apache.dubbo.demo.provider.iinterface.DemoController;
+import org.apache.dubbo.demo.provider.iinterface.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
