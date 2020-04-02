@@ -25,20 +25,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
-//        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProviderConfiguration.class);
-//        context.start();
-//        System.in.read();
     }
 
-//    @Configuration
-//    @EnableDubbo(scanBasePackages = "org.apache.dubbo.demo.provider")
-//    @PropertySource("classpath:/spring/dubbo-provider.properties")
-//    static class ProviderConfiguration {
-//        @Bean
-//        public RegistryConfig registryConfig() {
-//            RegistryConfig registryConfig = new RegistryConfig();
-//            registryConfig.setAddress("zookeeper://zookeeper-service:2181");
-//            return registryConfig;
-//        }
-//    }
+
 }
